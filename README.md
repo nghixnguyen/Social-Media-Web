@@ -1,4 +1,4 @@
-# csc648-01-fall23-team01 Repository
+# team01 Repository
 
 **Application URL: <https://csc.streamdev.online/>**
 

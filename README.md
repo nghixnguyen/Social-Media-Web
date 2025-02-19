@@ -15,7 +15,7 @@ Collaborated with team of six, following software development process, like Agil
 |   Leo Wu            | Front-end Leader  |
 | Vijayraj Tolnoorkar |  Front-end Leader  |
 |   Ronald Tieu       |   Back-end Leader   |
-|   Nghi Nguyen       |  GitHub Master    |
+|   Nghi Nguyen       |  Back-end Developer/ GitHub Master    |
 |   Ivana Mena        | Scrum Master    |
 
 **NO code should be stored in the root of your repository. You may rename the

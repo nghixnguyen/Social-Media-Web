@@ -1,0 +1,4 @@
+csc.streamdev.online {
+	root * /home/ubuntu/csc648-01-fall23-csc648-01-fall23-team01/application/client/
+	reverse_proxy 0.0.0.0:3000
+}

@@ -1,0 +1,85 @@
+.register {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register .card {
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 600px;
+  overflow: hidden;
+  box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.38);
+
+}
+
+.register .card .left {
+  flex: 1;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(30,9,121,1) 35%, rgba(121,0,255,1) 100%);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.register .card .left h1 {
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.register .card .left span {
+  font-size: 14px;
+}
+
+.register .card .left button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register .card .right {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+
+.register .card .right h1 {
+  color: #555;
+}
+
+.register .card .right form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.register .card .right form input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 10px;
+}
+
+.register .card .right form button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: #3700ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

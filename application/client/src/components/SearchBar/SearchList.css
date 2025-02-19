@@ -1,0 +1,23 @@
+.results-list {
+  text-align: center;
+  top: 3.5rem;
+  gap: 5px;
+  width: 50%; 
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 10px 8px #505050;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  position: fixed; 
+  z-index: 999; 
+}
+
+.search-result {
+  padding: 10px 20px;
+}
+
+.search-result:hover {
+  background-color: #efefef; /* Highlight color on hover */
+}

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing:border-box;
+    list-style: none;
+    text-decoration: none;
+  
+  }
+
+  .DarkMode{
+      --nav-icons: white;
+      --text-color: white;
+      --color-bg: rgb(0, 0, 0);
+      --color-card: #000000;
+    
+  }
+
+  :root{
+    --color-primary: #6c63ff;
+    --text-color: #444444;
+    --color-bg: rgb(236, 236, 236);
+    --color-card: white;
+    --color-soft: #aaaaaa;
+    --color-border: lightgray; 
+    --color-red: red; 
+  }
+  
+  /* .darkmood{
+    --text-color: white;
+    --color-bg: black;
+    --color-card: #111111;
+  } */
+  body{
+    overflow-x:hidden;
+  }
+  .container{
+    max-width: 991px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1,h2,h3,h4,h5{
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  .user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .user img{
+    width: 33px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    transition: .3s ease;
+  }
+  .user img:hover{
+    opacity: .7;
+  }
+  .user h4{
+    color: var(--color-primary);
+  }
+  body{
+    background: var(--color-bg);
+    color: var(--color-soft);
+  }
+  small,p{
+    color: var(--color-soft);
+  }
+  .btn{
+    padding: .6rem 1.4rem;
+    display: inline-block;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: .9rem;
+    font-weight: 500;
+    border: none;
+    transition: .3s ease;
+  }
+  .btn:hover{
+    opacity: .8;
+  }
+  .btn-primary{
+    background: var(--color-primary);
+    color: white;
+  }
+  
+  .btn-red{
+    background: var(--color-red);
+    color: white;
+  }
+  
+  main{
+    display: grid;
+    grid-template-columns: 18% 54% 25%;
+    gap: 3%;
+    width: 100%;  
+  }
+  
+  @media (max-width:1024px) {
+    main{
+      grid-template-columns: 8% 56% 32%;
+    }  
+  }
+  
+  @media (max-width:768px) {
+    main{
+      grid-template-columns: 100%;
+    }  
+    .container{
+      width: 96%;
+    }
+  }
